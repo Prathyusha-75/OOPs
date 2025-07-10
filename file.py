@@ -1,0 +1,8 @@
+file=input("Enter file name: ")
+f=open(file,"r")
+f.close()
+f1=open(file,"a")
+f1.write("Stay home stay safe")
+f1=open(file,"r")
+print(f1.read())
+f1.close()
